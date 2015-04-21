@@ -1,0 +1,129 @@
+html * {
+    color: black;
+    font-style: bold;
+}
+
+body {
+    background-color: #E8E8E8;
+}
+
+article {
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+.row {
+}
+
+.centered {
+    text-align: center;
+}
+
+.post {
+    margin-bottom: 25px;
+}
+
+.post a {
+    color: #05a;
+}
+
+.post h5 {
+}
+
+#header {
+    text-align: center;
+}
+
+#content-container {
+    background-color: #f5f5f5;
+    margin-bottom: 75px;
+}
+
+#main-container {
+    background-color: #f5f5f5;
+}
+
+#main-content {
+    margin-top: 25px;
+    padding-left: 20px;
+}
+
+#header-container {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+#header {
+    padding-top: 65px;
+}
+
+#header-text {
+}
+
+#footer-container {
+    border-top: 1px solid;
+    border-color: #E8E8E9;
+    background-color: #E8E8E8;
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#header-nav {
+    border-bottom: 1px dotted;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;    
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 10px;
+    color: #05a;
+    text-decoration: none;
+}
+
+#header-text hr {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#header-text h5 {
+    line-height: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#header-text h2 {
+    font-style: bold;
+}
+
+#post-list {
+}
+
+.post-archive {
+}
+
+.about {
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+
+#projects h3 {
+    margin-bottom: 20px;
+}
+
+#projects a {
+    color: #05a;
+}

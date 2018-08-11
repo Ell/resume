@@ -2,91 +2,97 @@
 
 <html>
 
-    <head>
-        <title>Alan Love Resume</title>
-        <link type="text/css" rel="stylesheet" href="theme/css/base.css">
-        <link type="text/css" rel="stylesheet" href="theme/css/skeleton.css">
+<head>
+    <title>Alan Love Resume</title>
+    <link type="text/css" rel="stylesheet" href="theme/css/base.css">
+    <link type="text/css" rel="stylesheet" href="theme/css/skeleton.css">
 
-        <style>
-.container {
-  margin-top: 30px;
-}
+    <style>
+        .container {
+            margin-top: 30px;
+        }
 
-#exp-main-head {
-  margin-bottom: 20px;
-}
+        #exp-main-head {
+            margin-bottom: 20px;
+        }
 
-.xp-head p {
-  float: right;
-}
+        .xp-head p {
+            float: right;
+        }
 
-#experience h2 {
-  margin-bottom: 20px;
-}
+        #experience h2 {
+            margin-bottom: 20px;
+        }
 
-#projects h2 {
-  margin-bottom: 20px;
-}
+        #projects h2 {
+            margin-bottom: 20px;
+        }
 
-.exp li {
-  list-style: square;
-  margin-left: 15px;
-  margin-top: 0px;
-  margin-bottom: 5px;
-}
+        .exp li {
+            list-style: square;
+            margin-left: 15px;
+            margin-top: 0px;
+            margin-bottom: 5px;
+        }
 
-#skills li {
-  display: inline;
-  list-style-type: none;
-  padding-right: 5px;
-}
+        #skills li {
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+        }
 
-.exp {
-  margin-bottom: 20px;
-}
+        .exp {
+            margin-bottom: 20px;
+        }
 
-#skills {
-  margin-bottom: 30px;
-}
+        #skills {
+            margin-bottom: 30px;
+        }
 
-.exp h6 {
-  margin-top: 0;
-}
+        .exp h6 {
+            margin-top: 0;
+        }
 
-.exp p {
-  margin-bottom: 5px;
-}
+        .exp p {
+            margin-bottom: 5px;
+        }
 
-/* #Page Styles
+        /* #Page Styles
 ================================================== */
 
-/* #Media Queries
+        /* #Media Queries
 ================================================== */
 
-  /* Smaller than standard 960 (devices and browsers) */
-  @media only screen and (max-width: 959px) {}
+        /* Smaller than standard 960 (devices and browsers) */
 
-  /* Tablet Portrait size to standard 960 (devices and browsers) */
-  @media only screen and (min-width: 768px) and (max-width: 959px) {}
+        @media only screen and (max-width: 959px) {}
 
-  /* All Mobile Sizes (devices and browser) */
-  @media only screen and (max-width: 767px) {}
+        /* Tablet Portrait size to standard 960 (devices and browsers) */
 
-  /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-  @media only screen and (min-width: 480px) and (max-width: 767px) {}
+        @media only screen and (min-width: 768px) and (max-width: 959px) {}
 
-  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-  @media only screen and (max-width: 479px) {}
+        /* All Mobile Sizes (devices and browser) */
+
+        @media only screen and (max-width: 767px) {}
+
+        /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+        @media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+        /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+
+        @media only screen and (max-width: 479px) {}
 
 
-/* #Font-Face
+        /* #Font-Face
 ================================================== */
-/*  This is the proper syntax for an @font-face file
+
+        /*  This is the proper syntax for an @font-face file
     Just create a "fonts" folder at the root,
     copy your FontName into code below and remove
     comment brackets */
 
-/*  @font-face {
+        /*  @font-face {
       font-family: 'FontName';
       src: url('../fonts/FontName.eot');
       src: url('../fonts/FontName.eot?iefix') format('eot'),
@@ -96,92 +102,109 @@
       font-weight: normal;
       font-style: normal; }
 */
-        </style>
-    </head>
+    </style>
+</head>
 
-    <body>
-        <div class="container">
-            <div class="sixteen columns">
+<body>
+    <div class="container">
+        <div class="sixteen columns">
 
-                <div id="header">
-                    <h1>Alan Love</h1>
-                    <h6>Austin, TX</h6>
-                    <a href="http://github.com/ell"><h6>http://github.com/ell</h6></a>
-                    <a href="mailto:alan@cattes.us">alan@cattes.us</a>
+            <div id="header">
+                <h1>Alan Love</h1>
+                <h6>Austin, TX</h6>
+                <a href="http://github.com/ell">
+                    <h6>http://github.com/ell</h6>
+                </a>
+                <a href="mailto:alan@cattes.us">alan@cattes.us</a>
+            </div>
+
+            <hr />
+
+            <div id="about">
+                <h2>ABOUT ME</h2>
+                <p>I've been coding professionally for over 7 years, with a focus mainly on web development using python or
+                    javascript as my go-to tool for the task. I love working with the web and creating well-documented and
+                    easy to use products for other people to use. During my spare time I enjoy hacking on new and interesting
+                    technologies that I've discovered around the internet and create fun little projects for my own amusement.</p>
+            </div>
+
+            <hr />
+
+            <div id="experience">
+                <h2>EXPERIENCE</h2>
+
+                <div class="exp">
+                    <h4>&raquo; Senior Developer at Trendkite (2017-2018)</h4>
+                    <p>Helped transition legacy Angular 1.x codebase into a modern React/Redux application. Led design and implmentation
+                        efforts as well as helped with teaching React to already established front end developers.</p>
+                </div>
+                <div class="exp">
+                    <h4>&raquo; Senior Developer at CSDisco (2017)</h4>
+                    <p>Helped develop, design, and maintain the user facing portions of the main product. Helped with creation
+                        and deployment of multiple large react based features.</p>
                 </div>
 
-                <hr />
-
-                <div id="about">
-                    <h2>ABOUT ME</h2>
-                    <p>I've been coding professionally for over 7 years, with a focus mainly on web development using python or javascript as my go-to tool for the task. I love working with the web and creating well-documented and easy to use products for other people to use. During my spare time I enjoy hacking on new and interesting technologies that I've discovered around the internet and create fun little projects for my own amusement.</p>
+                <div class="exp">
+                    <h4>&raquo; Senior Developer at Umbel (2016-2017)</h4>
+                    <p>In charge of developing and maintaining the front facing components of our core products as well as providing
+                        ideas and feedback for additional features clients may want in the future.</p>
                 </div>
 
-                <hr />
-
-                <div id="experience">
-                    <h2>EXPERIENCE</h2>
-                    
-                     <div class="exp">
-                        <h4>&raquo; Senior Developer at CSDisco (2017)</h4>
-                        <p>Helped develop, design, and maintain the user facing portions of the main product. Helped with creation and deployment of multiple large react based features.</p>
-                    </div>
-                    
-                    <div class="exp">
-                        <h4>&raquo; Senior Developer at Umbel (2016)</h4>
-                        <p>In charge of developing and maintaining the front facing components of our core products as well as providing ideas and feedback for additional features clients may want in the future.</p>
-                    </div>
-
-                    <div class="exp">
-                        <h4>&raquo; Lead Developer at NewComLink (2014 - 2016)</h4>
-                        <p>Took lead of a small team (around 5 developers) to create a new and modern user experience for the companies main product. This included creating a well tested and documented AngularJS application that communicated with a RESTful API created in house.</p>
-                    </div>
-
-                    <div class="exp">
-                        <h4>&raquo; Senior Developer at The University of Arizona (2012 - 2014)</h4>
-                        <p>Created and maintained websites deployed university wide. Coded mainly using Django with some Flask/SQLAlchemy. Supported and updated other projects coded in a variety of other frameworks and languages.</p>
-                    </div>
-
-                    <div class="exp">
-                        <h4>&raquo; Lead Developer at Ascension Marketing (2012)</h4>
-                        <p>Created a custom homepage solution based around the Flask framework that incorporated many API's and services including Shopify and Facebook.</p>
-                    </div>
-
-                    <div class="exp">
-                        <h4>&raquo; Web Design at The University of Arizona (2010)</h4>
-                        <p>Integrated designs from various PDF and PSD's to create a HTML template for use in a CMS.</p>
-                    </div>
-
+                <div class="exp">
+                    <h4>&raquo; Lead Developer at NewComLink (2014 - 2016)</h4>
+                    <p>Took lead of a small team (around 5 developers) to create a new and modern user experience for the companies
+                        main product. This included creating a well tested and documented AngularJS application that communicated
+                        with a RESTful API created in house.</p>
                 </div>
 
-                <hr />
+                <div class="exp">
+                    <h4>&raquo; Senior Developer at The University of Arizona (2012 - 2014)</h4>
+                    <p>Created and maintained websites deployed university wide. Coded mainly using Django with some Flask/SQLAlchemy.
+                        Supported and updated other projects coded in a variety of other frameworks and languages.</p>
+                </div>
 
-                <div id="projects">
-                    <h2>PROJECTS</h2>
+                <div class="exp">
+                    <h4>&raquo; Lead Developer at Ascension Marketing (2012)</h4>
+                    <p>Created a custom homepage solution based around the Flask framework that incorporated many API's and
+                        services including Shopify and Facebook.</p>
+                </div>
 
-                    <div class="exp">
-                        <h4>&raquo; Portal (AngularJS / Node)</h4>
-                        <p>Created and managed an AngularJS project that took advantage of our internal API to provide a modern front end experience for our users.
-                        
-                        <br/>
-                        This includes:
+                <div class="exp">
+                    <h4>&raquo; Web Design at The University of Arizona (2010)</h4>
+                    <p>Integrated designs from various PDF and PSD's to create a HTML template for use in a CMS.</p>
+                </div>
+
+            </div>
+
+            <hr />
+
+            <div id="projects">
+                <h2>PROJECTS</h2>
+
+                <div class="exp">
+                    <h4>&raquo; Portal (AngularJS / Node)</h4>
+                    <p>Created and managed an AngularJS project that took advantage of our internal API to provide a modern
+                        front end experience for our users.
+
+                        <br/> This includes:
                         <br/>
                         <ul>
                             <li>API mocking using ng-mock-provider</li>
                             <li>Unit and E2E testing with Karma and Protractor</li>
-                            <li>Heavy use of Angular's module system to provide an easy to test and extend framework for new features</li>
+                            <li>Heavy use of Angular's module system to provide an easy to test and extend framework for new
+                                features</li>
                             <li>A Gulp.js based build process that eased debian package creation and deployment</li>
                         </ul>
 
-                        </p>
-                    </div>
+                    </p>
+                </div>
 
-                    <div class="exp">
-                        <h4>&raquo; Titan (Python/Django)</h4>
-                        <p>Took over maintenance and development role of Titan, a large university wide web application platform based around the Django web framework that provides solutions to department specific needs.
-                        
-                        <br/>
-                        This includes:
+                <div class="exp">
+                    <h4>&raquo; Titan (Python/Django)</h4>
+                    <p>Took over maintenance and development role of Titan, a large university wide web application platform
+                        based around the Django web framework that provides solutions to department specific needs.
+
+                        <br/> This includes:
                         <br/>
                         <ul>
                             <li>Integration into the Universities Shibboleth authentication platform</li>
@@ -190,37 +213,47 @@
                             <li>Many other department specific integrations</li>
                         </ul>
 
-                        </p>
-                    </div>
-
-                    <div class="exp">
-                        <h4>&raquo; Grid (React/ES6/Redux) </h4>
-                        <p>Created a music sequencer using modern web technologies. Uses WebAudio and WebMIDI browser api's.</p>
-                        <h6><a href="http://ell.github.io/grid">http://ell.github.io/grid</a></h6>
-                    </div>
-
-                    <div class="exp">
-                        <h4>&raquo; Ultra Wizard Sword (Python/Django/iTunes RSS)</h4>
-                        
-                        <p>Created a Django based CMS for a live radio show. The CMS has the ability to add/edit/delete shows and show the status of the show (if its currently live or not). The CMS also automatically updates the iTunes podcast RSS feed with added and edited shows.
-                        </p>
-                        <h6><a href="http://ultrawizardsword.net/">http://ultrawizardsword.net/</a></h6>
-                    </div>
-
-
-                    <div class="exp">
-                        <h4>&raquo; Django-Biblia (Python/Django)</h4>
-                        
-                        <p>Created a Django based project to manage and share eBooks. Consumes multiple API's to provide an automated and smooth upload process. Automatically creates meta data for uploads based on said API's being consumed.
-                        </p>
-                        <h6><a href="https://github.com/Ell/django-biblia">https://github.com/Ell/django-biblia</a></h6>
-                    </div>
-            
+                    </p>
                 </div>
 
-                <hr />
+                <div class="exp">
+                    <h4>&raquo; Grid (React/ES6/Redux) </h4>
+                    <p>Created a music sequencer using modern web technologies. Uses WebAudio and WebMIDI browser api's.</p>
+                    <h6>
+                        <a href="http://ell.github.io/grid">http://ell.github.io/grid</a>
+                    </h6>
+                </div>
 
-                <!-- <div id="skills">
+                <div class="exp">
+                    <h4>&raquo; Ultra Wizard Sword (Python/Django/iTunes RSS)</h4>
+
+                    <p>Created a Django based CMS for a live radio show. The CMS has the ability to add/edit/delete shows and
+                        show the status of the show (if its currently live or not). The CMS also automatically updates the
+                        iTunes podcast RSS feed with added and edited shows.
+                    </p>
+                    <h6>
+                        <a href="http://ultrawizardsword.net/">http://ultrawizardsword.net/</a>
+                    </h6>
+                </div>
+
+
+                <div class="exp">
+                    <h4>&raquo; Django-Biblia (Python/Django)</h4>
+
+                    <p>Created a Django based project to manage and share eBooks. Consumes multiple API's to provide an automated
+                        and smooth upload process. Automatically creates meta data for uploads based on said API's being
+                        consumed.
+                    </p>
+                    <h6>
+                        <a href="https://github.com/Ell/django-biblia">https://github.com/Ell/django-biblia</a>
+                    </h6>
+                </div>
+
+            </div>
+
+            <hr />
+
+            <!-- <div id="skills">
                     <h2>SKILLS</h2>
 
                     <ul>
@@ -242,9 +275,8 @@
                 </div>
               -->
 
-            </div>
         </div>
-    </body>
+    </div>
+</body>
 
 </html>
-

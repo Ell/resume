@@ -57,51 +57,11 @@
             margin-bottom: 5px;
         }
 
-        /* #Page Styles
-================================================== */
-
-        /* #Media Queries
-================================================== */
-
-        /* Smaller than standard 960 (devices and browsers) */
-
         @media only screen and (max-width: 959px) {}
-
-        /* Tablet Portrait size to standard 960 (devices and browsers) */
-
         @media only screen and (min-width: 768px) and (max-width: 959px) {}
-
-        /* All Mobile Sizes (devices and browser) */
-
         @media only screen and (max-width: 767px) {}
-
-        /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-
         @media only screen and (min-width: 480px) and (max-width: 767px) {}
-
-        /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-
         @media only screen and (max-width: 479px) {}
-
-
-        /* #Font-Face
-================================================== */
-
-        /*  This is the proper syntax for an @font-face file
-    Just create a "fonts" folder at the root,
-    copy your FontName into code below and remove
-    comment brackets */
-
-        /*  @font-face {
-      font-family: 'FontName';
-      src: url('../fonts/FontName.eot');
-      src: url('../fonts/FontName.eot?iefix') format('eot'),
-           url('../fonts/FontName.woff') format('woff'),
-           url('../fonts/FontName.ttf') format('truetype'),
-           url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
-      font-weight: normal;
-      font-style: normal; }
-*/
     </style>
 </head>
 
@@ -122,7 +82,7 @@
 
             <div id="about">
                 <h2>ABOUT ME</h2>
-                <p>I've been coding professionally for over 7 years, with a focus mainly on web development using python or
+                <p>I've been coding professionally for over 8 years, with a focus mainly on web development using python or
                     javascript as my go-to tool for the task. I love working with the web and creating well-documented and
                     easy to use products for other people to use. During my spare time I enjoy hacking on new and interesting
                     technologies that I've discovered around the internet and create fun little projects for my own amusement.</p>
@@ -133,8 +93,12 @@
             <div id="experience">
                 <h2>EXPERIENCE</h2>
                 <div class="exp">
+                    <h4>&raquo; Senior Developer at Ruckit (2018-2019)</h4>
+                    <p>Created and helped maintain a multitude of frontend and backend projects utilizing Django, React, and Angular 7/8 for the Trucking and Hauling industry.</p>
+                </div>
+                <div class="exp">
                     <h4>&raquo; Senior Developer at Trendkite (2017-2018)</h4>
-                    <p>Helped transition legacy Angular 1.x codebase into a modern React/Redux application. Led design and implmentation
+                    <p>Helped transition legacy Angular 1.x codebase into a modern React/Redux application. Led design and implementation
                         efforts as well as helped with teaching React to already established front end developers.</p>
                 </div>
                 <div class="exp">
@@ -161,7 +125,35 @@
                 <h2>PROJECTS</h2>
 
                 <div class="exp">
-                    <h4>&raquo; Portal (AngularJS / Node)</h4>
+                    <h4>&raquo; Chill.cat (React, Redux, Typescript)</h4>
+                    <p>A video game music playlist with multiple playlist types for whatever mood you may be in.</p>
+                    <h6>
+                        <a href="https://chill.cat/">https://chill.cat/</a>
+                    </h6>
+                </div>
+
+                <div class="exp">
+                    <h4>&raquo; Grid (React/ES6/Redux/Typescript) </h4>
+                    <p>Created a music sequencer using modern web technologies. Uses WebAudio and WebMIDI browser api's.</p>
+                    <h6>
+                        <a href="http://ell.github.io/grid">http://ell.github.io/grid</a>
+                    </h6>
+                </div>
+
+                <div class="exp">
+                    <h4>&raquo; Ultra Wizard Sword (Python/Django/iTunes RSS)</h4>
+
+                    <p>Created a Django based CMS for a live radio show. The CMS has the ability to add/edit/delete shows and
+                        show the status of the show (if its currently live or not). The CMS also automatically updates the
+                        iTunes podcast RSS feed with added and edited shows.
+                    </p>
+                    <h6>
+                        <a href="http://ultrawizardsword.net/">http://ultrawizardsword.net/</a>
+                    </h6>
+                </div>
+
+                <div class="exp">
+                    <h4>&raquo; Ticket Manager (Angular 8 / Django)</h4>
                     <p>Created and managed an AngularJS project that took advantage of our internal API to provide a modern
                         front end experience for our users.
 
@@ -169,11 +161,11 @@
                         <br/>
                         <ul>
                             <li>API mocking using ng-mock-provider</li>
-                            <li>Unit and E2E testing with Karma and Protractor</li>
+                            <li>Unit and E2E testing with Karma, Jest, and Headless Chrome</li>
                             <li>Heavy use of Angular's module system to provide an easy to test and extend framework for new
                                 features
                             </li>
-                            <li>A Gulp.js based build process that eased debian package creation and deployment</li>
+                            <li>Automated deployment using bitbucket pipelines and various other CI platforms</li>
                         </ul>
 
                     </p>
@@ -192,55 +184,9 @@
                             <li>Departmental level role based access limitation</li>
                             <li>Many other department specific integrations</li>
                         </ul>
-
                     </p>
-                </div>
-
-                <div class="exp">
-                    <h4>&raquo; Grid (React/ES6/Redux) </h4>
-                    <p>Created a music sequencer using modern web technologies. Uses WebAudio and WebMIDI browser api's.</p>
-                    <h6>
-                        <a href="http://ell.github.io/grid">http://ell.github.io/grid</a>
-                    </h6>
-                </div>
-
-                <div class="exp">
-                    <h4>&raquo; Ultra Wizard Sword (Python/Django/iTunes RSS)</h4>
-
-                    <p>Created a Django based CMS for a live radio show. The CMS has the ability to add/edit/delete shows and
-                        show the status of the show (if its currently live or not). The CMS also automatically updates the
-                        iTunes podcast RSS feed with added and edited shows.
-                    </p>
-                    <h6>
-                        <a href="http://ultrawizardsword.net/">http://ultrawizardsword.net/</a>
-                    </h6>
                 </div>
             </div>
-
-            <hr />
-
-            <!-- <div id="skills">
-                    <h2>SKILLS</h2>
-
-                    <ul>
-                        <li>Python</li>
-                        <li>HTML</li>
-                        <li>WebRTC</li>
-                        <li>CSS(3)</li>
-                        <li>LUA</li>
-                        <li>JavaScript</li>
-                        <li>Backbone.js</li>
-                        <li>App Development</li>
-                        <li>Node.js</li>
-                        <li>RESTful Design Patterns</li>
-                        <li>Git</li>
-                        <li>Linux Devops (Puppet mainly)</li>
-                        <li>SQL</li>
-                        <li>Facebook / Twitter apis</li>
-                    </ul>
-                </div>
-              -->
-
         </div>
     </div>
 </body>
